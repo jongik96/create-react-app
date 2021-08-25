@@ -19,7 +19,7 @@ class UpdateContent extends Component{
       return(
         <article>
           <h2>UpdateContent</h2>
-          <form action="/update_process" method="post"
+          <form action="/create_process" method="post"
            onSubmit={function(e){
             e.preventDefault();
             
